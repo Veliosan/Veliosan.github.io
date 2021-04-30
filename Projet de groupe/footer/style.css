@@ -1,0 +1,66 @@
+.BB{
+    background: #E1D3A1;
+    border: black 2px solid;
+    width: 1150px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.beige{
+    height: 41px;
+    width: 223px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.border{
+    border-right: black 2px solid;
+}
+footer{
+    width: 1140px;
+    height: 312px;
+    padding: 20px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.liste{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail{
+    height: 43px;
+    width: 447px;
+}
+.env{
+    width: 114px;
+    height: 38px;
+    text-align: center;
+    background: black;
+    color: white;
+    border: white 2px solid;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.formulaire{
+    position: relative;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.paiement{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icone{
+    width: 61px;
+    height: 40px;
+}
